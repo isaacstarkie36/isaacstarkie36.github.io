@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="icon" type="image/png" href="img/github.png" />
+    <style>
+        .titleBar{
+            background-color:rgb(69, 22, 105);
+            color:white;
+            box-shadow: 0px 6px 24px gray;
+            text-align:center;
+            padding:2rem;
+        }
+
+        .gallery {
+            padding-top:2rem;
+            padding-left:8rem;
+            padding-right:8rem;
+        }
+
+        .card {
+            margin-bottom:2rem;
+        }
+
+        .carousel-inner img {
+            width:100%;
+            height:100%;
+        }
+
+        footer p {
+            display:block;
+            text-align:center;
+        }
+
+        .footerInner {
+            background-color:rgb(236, 236, 236);
+            text-align:center;
+            padding:3rem;
+            margin-top:8rem;
+        }
+
+        .footerInner ul {
+            display:inline-flex;
+        }
+
+        .footerInner ul li {
+            
+            padding-left:2rem;
+            padding-right:2rem;
+        }
+
+        .icolink:link, .icolink:visited, .icolink:link:active, .icolink:visited:active { 
+            color:black;
+        }
+
+        .icolink .fab {
+            font-size:5rem;
+        }
+
+        @media screen and (max-width: 624px) {
+            .gallery {
+                padding:0rem;
+            }
+        }
+
+        @media only screen and (max-width : 992px) {
+
+        }
+    </style>
+</head>
+<body>
+
+<!--- Title Bar -->
+<div class="jumbotron jumbotron-fluid titleBar">
+    <div class="container">
+        <h1 class="display-4">Isaac Starkie</h1>
+    </div>
+</div>
+
+<!--- Project Gallery -->
+<div class="container-fluid gallery">
+    <div class="row">
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+                <div id="carousel1" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/dis/dis1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/dis/dis2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/dis/dis3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Dissertation project</h4>
+                    <p class="card-text">A survival horror game featuring procedurally generated audio. Built in Unity.</p>
+                    <a class="card-text" href="#" target="_blank">View source</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+                <div id="carousel4" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/inv/inv1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/inv/inv2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/inv/inv3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Space Invaders clone</h4>
+                    <p class="card-text">A 3D clone of Space Invaders built in C++, SDL2 and OpenGL.</p>
+                    <a class="card-text" href="#" target="_blank">View source</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+                <div id="carousel3" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/tip/tip1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/tip/tip2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/tip/tip3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Tipping Point</h4>
+                    <p class="card-text">A physics-based arcade game developed collaboratively over the course of 24 hours. Built in Godot.</p>
+                    <a class="card-text" href="https://github.com/Hylek/Tipping-Point/tree/Original-Version" target="_blank">View source</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+                <div id="carousel2" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/pac/pac1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pac/pac2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pac/pac3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Pacman clone</h4>
+                    <p class="card-text">A clone of the classic arcade game Pacman built using C++ and SDL2.</p>
+                    <a class="card-text" href="#" target="_blank">View source</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+                <div id="carousel5" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/dio/dio1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/dio/dio2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/dio/dio3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel5" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Procedural space diorama</h4>
+                    <p class="card-text">Simulated planetary system with procedurally generated planets and spaceship fleets. Built in Unity.</p>
+                    <a class="card-text" href="https://github.com/Yizak/Procedural-space-diorama" target="_blank">View source</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+                <div id="carousel6" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/fis/fis1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fis/fis2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fis/fis3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel6" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel6" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Fish simulation game</h4>
+                    <p class="card-text">Lorem ipsum</p>
+                    <a class="card-text" href="#" target="_blank">View source</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+                <div id="carousel7" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/fla/fla1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fla/fla2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fla/fla3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel7" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel7" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Flappy Bird clone</h4>
+                    <p class="card-text">Lorem ipsum</p>
+                    <a class="card-text" href="#" target="_blank">View source</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+                <div id="carousel9" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/gol/gol1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gol/gol2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gol/gol3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel9" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel9" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Minigolf</h4>
+                    <p class="card-text">Lorem ipsum</p>
+                    <a class="card-text" href="#" target="_blank">View source</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--- Footer -->
+<footer>
+    <div class="container-fluid footerInner">
+        <p>External links</p>
+        <ul class="list-unstyled">
+            <li>
+                <a class="icolink" href="https://www.linkedin.com/in/isaac-starkie-731172131/" target="_blank">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="icolink" href="https://github.com/Yizak" target="_blank">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
