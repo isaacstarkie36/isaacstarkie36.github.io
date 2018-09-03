@@ -110,6 +110,22 @@
                 <div class="card-body">
                     <h4 class="card-title">Dissertation project</h4>
                     <p class="card-text">A survival horror game featuring procedurally generated audio. Built in Unity and C# (PC).</p>
+                    <p class="card-text">
+                        This project explored the use of algorithms to generate a horror game soundtrack. This is achieved by sequencing layers of audio 
+                        samples in real time, creating a unique listening experience for every playthrough. 
+                        The premise of the game is simple and tasks the player with surviving as long as possible and evading enemies. The game ends when 
+                        all five lives are lost.
+                    </p>
+                    <p class="card-text">
+                        One audio algorithm decides whether to continue playing an audio sample providing instrumentation or synthesized music or 
+                        transition into a new one. This background audio is sensitive to the surroundings of the player, and varies depending on which 
+                        collision zone the player resides in. 
+                        A secondary algorithm layers additional audio samples over the base instrumentation to introduce variety and maintain tension. 
+                    </p>
+                    <p class="card-text">
+                        The audio also varies with the intensity of the situation. The algorithms consider factors such as how far the player is from a 
+                        threat and what they are seeing at any given time.
+                    </p>
                     <a class="card-text" href="https://github.com/Yizak/Forlorn" target="_blank">View source</a>
                 </div>
             </div>
@@ -140,6 +156,15 @@
                 <div class="card-body">
                     <h4 class="card-title">Space Invaders clone</h4>
                     <p class="card-text">A 3D clone of Space Invaders built in C++, SDL2 and OpenGL (PC).</p>
+                    <p class="card-text">
+                        This game was developed for a graphics assignment with the intention of using OpenGL functions to render everything. Each object in 
+                        the game uses a hexagonal prism mesh with different texturing. Subtle ambient lighting is used to create a flash when the player 
+                        shoots their weapon. The camera tilts slightly around the centre of the area of play as the player moves their cannon. Aliens move 
+                        downwards more and more rapidly as in the original game and, upon death, are flung across the screen in a comical fashion. 
+                    </p>
+                    <p class="card-text">
+                        Shader code and mesh data can all be found within the main C++ source file.
+                    </p>
                     <a class="card-text" href="https://github.com/Yizak/Space-Invaders-clone" target="_blank">View source</a>
                 </div>
             </div>
@@ -170,6 +195,19 @@
                 <div class="card-body">
                     <h4 class="card-title">Tipping Point</h4>
                     <p class="card-text">A physics-based arcade game developed collaboratively over the course of 24 hours. Built in Godot and GDScript (PC).</p>
+                    <p class="card-text">
+                        This game was developed for the November 2017 game jam with another student at the University of Lincoln. It can be played as a 
+                        singleplayer experience in which the player assumes control of a cube balancing on a see-saw. The aim is to stay on top as long as 
+                        possible while avoiding being squashed by falling shapes. A second player can join in and defend the cube using a cannon to deflect
+                        incoming shapes.
+                    </p>
+                    <p class="card-text">
+                        Two additional game modes are available: Slip 'n' Slide, which adds a slippery surface to the see-saw, and Rapid Fire, which
+                        features an overwhelming number of falling shapes.
+                    </p>
+                    <p class="card-text">
+                        Our game won best use of the theme "Wobble and Crunch".
+                    </p>
                     <a class="card-text" href="https://github.com/Hylek/Tipping-Point/tree/Original-Version" target="_blank">View source</a>
                 </div>
             </div>
@@ -200,6 +238,15 @@
                 <div class="card-body">
                     <h4 class="card-title">Pacman clone</h4>
                     <p class="card-text">A clone of the classic arcade game Pacman built using C++ and SDL2 (PC).</p>
+                    <p class="card-text">
+                        Developed for a games programming assignment, this game made use of the SDL2, SDL_image, SDL_mixer, and SDL_ttf libraries to
+                        provide visuals, audio, and text. Object oriented programming was employed extensively to implement a player character,
+                        ghosts, animations, and a grid-based level layout.
+                    </p>
+                    <p class="card-text">
+                        As well as developing the core gameplay elements from the original game, I added a speed boost feature that would help the
+                        player escape danger. This added an element of stategy to the game, as the boost can only be used after a cooldown period.
+                    </p>
                     <a class="card-text" href="https://github.com/Yizak/Pacman-clone" target="_blank">View source</a>
                 </div>
             </div>
@@ -230,6 +277,16 @@
                 <div class="card-body">
                     <h4 class="card-title">Procedural space diorama</h4>
                     <p class="card-text">Simulated planetary system with procedurally generated planets and spaceship fleets. Built in Unity and C# (PC).</p>
+                    <p class="card-text">
+                        This project involved building a 3D diorama using procedural content generation. Planets, spaceships, UFOs and spiral galaxies 
+                        were generated using PCG techniques. Parameters such as galaxy shape and ship components were determined randomly, while others 
+                        such as the placement of fleets and the colour of planets were chosen depending on their position within the overall scene and 
+                        distance to the star.
+                    </p>
+                    <p class="card-text">
+                        The diorama can be viewed from multiple viewpoints using camera controls. This is useful for observing the rotation of planets
+                        around the star and the movement of fleets towards UFOs situated at the outer edges of the star system.
+                    </p>
                     <a class="card-text" href="https://github.com/Yizak/Procedural-space-diorama" target="_blank">View source</a>
                 </div>
             </div>
@@ -259,7 +316,18 @@
                 </div>
                 <div class="card-body">
                     <h4 class="card-title">Minigolf</h4>
-                    <p class="card-text">A single hole minigolf course featuring PhysX middleware. Built in C++ (PC).</p>
+                    <p class="card-text">A minigolf course game featuring PhysX middleware. Built in C++ (PC).</p>
+                    <p class="card-text">
+                        This game was created for a physics simulation assignment. The golf club can be swung back and forth to apply the 
+                        desired amount of force to the ball. The club is attached  to a PhysX joint and forces are applied when the player provides 
+                        input.
+                    </p>
+                    <p class="card-text">
+                        Rotation of the windmill sails is achieved using a joint and motor. 
+                        The flag above the hole is created using the PhysX cloth feature and moves dynamically with an applied wind force. 
+                        There are also several materials that make up the course, identifiable by their colours, and they create different amounts of 
+                        friction with the ball.
+                    </p>
                     <a class="card-text" href="https://github.com/Yizak/Minigolf" target="_blank">View source</a>
                 </div>
             </div>
